@@ -1,0 +1,4 @@
+import qrcode as qr
+# NOTE YOU HAVE OT INSTALL QRCODE IN PYCHARM
+img =  qr.make("URL") # ENTER A URL YOU WANT TO MAKE QRCODE
+img.save("NAME FO IMAGE.PNG")
